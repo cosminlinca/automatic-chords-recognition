@@ -1,0 +1,78 @@
+2020-04-28 13:00:41,892 - tensorflow - WARNING - From C:\Users\Coss\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\backend\tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2020-04-28 13:00:42,941 - tensorflow - WARNING - From C:\Users\Coss\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\backend\tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2020-04-28 13:01:52,008 - src.modelling.cnn_train - INFO - Dataset size: 58570
+2020-04-28 13:01:52,008 - src.modelling.cnn_train - INFO - Split dataset with split ratio: 0.8
+2020-04-28 13:01:53,154 - src.modelling.cnn_train - INFO - Number of training samples is 46856
+2020-04-28 13:01:53,155 - src.modelling.cnn_train - INFO - Number of testing samples is 11714
+2020-04-28 13:01:53,155 - src.modelling.cnn_train - INFO - Train-Test split completed
+2020-04-28 13:11:04,317 - tensorflow - WARNING - From C:\Users\Coss\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\backend\tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2020-04-28 13:11:05,294 - tensorflow - WARNING - From C:\Users\Coss\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\backend\tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2020-04-28 13:11:35,723 - src.modelling.cnn_train - INFO - Dataset size: 58570
+2020-04-28 13:11:35,723 - src.modelling.cnn_train - INFO - Split dataset with split ratio: 0.8
+2020-04-28 13:11:36,768 - src.modelling.cnn_train - INFO - Number of training samples is 46856
+2020-04-28 13:11:36,768 - src.modelling.cnn_train - INFO - Number of testing samples is 11714
+2020-04-28 13:11:36,768 - src.modelling.cnn_train - INFO - Train-Test split completed
+2020-04-28 13:16:40,184 - tensorflow - WARNING - From C:\Users\Coss\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\backend\tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2020-04-28 13:16:41,603 - tensorflow - WARNING - From C:\Users\Coss\AppData\Local\Programs\Python\Python36\lib\site-packages\keras\backend\tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2020-04-28 13:16:53,515 - src.modelling.cnn_train - INFO - Dataset size: 58570
+2020-04-28 13:16:53,515 - src.modelling.cnn_train - INFO - Split dataset with split ratio: 0.8
+2020-04-28 13:16:54,418 - src.modelling.cnn_train - INFO - Number of training samples is 46856
+2020-04-28 13:16:54,418 - src.modelling.cnn_train - INFO - Number of testing samples is 11714
+2020-04-28 13:16:54,418 - src.modelling.cnn_train - INFO - Train-Test split completed
+2020-04-28 13:17:54,242 - src.model_evaluation.confusion_matrix - INFO - Confusion Matrix 
+[[ 425    0    0    0    3    0    0    3    2    1    0    0    1    0
+    11    1    0    2    0    0    1    0    0    1   19]
+ [   0  304    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0    0    0    0    0    0    0    2    0]
+ [   0    1  293    0    0    0    0    8    0    0    0    0    0    0
+     0    0    0    0    0    0    0    0    0    0    2]
+ [   0    0    0  302    0    0    1    0    0    0    0    0    0    0
+     0    2    0    0    0    0    0    0    0    0    8]
+ [   0    1    2    0  299    3    0    0    1    1    0    0    8    0
+     3    0    0   14    0    0    4    0    0    0   18]
+ [   1    0    0    0    0  416    0    4    0    0    3    0    0    1
+     7    1    0    3    1    0    8    0    0    0   12]
+ [   1    8    9    8    0    0  431    3    0    2    0    4    1    0
+     4    8    2    0    0    4    9    1    0   10   63]
+ [   2    0    0    0    0    0    0  695    0    0    0    0    0    0
+     0    0    0    0    0    1    0    0    0    0    1]
+ [   0    0    2    0    3    0    0    5  194    0    0    0    0    0
+     6    0    0    3    0    0    0    0    0    1    1]
+ [   0    8    0    0    0    0    0    0    0  130    0    0    2    0
+     0    0    0    0    0    2    5    2    0    3   10]
+ [   8    1    0    4    1    7    0    0    0    0  478    0    1   21
+     2    2    0    3    6    0   12    1    0    2   52]
+ [   0   57   11    0    0    0    0    4    0   22    0  128    4    2
+     1    0    5    4    0    3    1   11    1   21   95]
+ [   0    0    0    0    4    0    0    0    0    0    0    0  141    0
+     0    0    0    0    0    0    0    0    0    0    2]
+ [   0    0    0    0    0    0    0    0    0    0    8    0    0  431
+     0    0    0    0    0    0    0    0    0    0    2]
+ [   2    0    0    0    0    1    0    2    6    0    0    0    0    0
+   593    3    0    2    0    0    0    0    2    2    7]
+ [   2    2    0    4    3    0    0    0    0    0    0    0    0    3
+    13  429    0    0    0    0   15    0    0    1   13]
+ [   0   24    3   11    0    0    1    5    0    1    4    0    2   21
+     2    1  394    3    0    9   11    5    0    8   33]
+ [   0    0    8    0    2    0    0   12    0    0    0    0    1    0
+     3    0    0  417    1    0    1    2    1    1    2]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0    0  151    0    0    0    0    0    0]
+ [   0    1    0    0    0    0    0    1    0    0    0    0    0    0
+     0    0    0    0    0  326    0    1    0    0    1]
+ [   0    1    0    1    0    0    0    0    0    0    0    0    0    0
+     1    0    0    0    0    0  482    0    0    2    5]
+ [   0    5    0    0    0    0    0   22    0    1    0    0    0    1
+     4    0    0   12    0    2    5  446    3    0   44]
+ [   0    1    0    0    7    0    0    8    2    0    0    0    1    0
+     5    0    0    6    0    0    0    8  172    0   35]
+ [   0   15    0    0    0    0    0    3    0    1    0    0    0    3
+     2    0    1    2    0    1    1    2    0  195    5]
+ [  17   54   18    7    8   15   20  114   11    6    6    8   27   17
+    29   23    2   38   11   15   29   25   26   24 1669]]
