@@ -1,0 +1,16 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDDCD7">
+
+    <ListView
+        android:id="@+id/card_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/waveform_unselected"
+        android:cacheColorHint="@color/waveform_unselected"
+        android:divider="@null"
+        android:dividerHeight="10dp" />
+</LinearLayout>

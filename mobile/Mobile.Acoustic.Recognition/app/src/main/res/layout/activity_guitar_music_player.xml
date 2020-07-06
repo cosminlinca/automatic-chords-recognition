@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDCD7"
+    tools:context=".ui.music_player.GuitarMusicPlayerActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/waveform_unselected"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewPlaylist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.75"
+                    android:text="Predictions"
+                    android:textColor="#FFFFFF"
+                    android:textSize="32dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/saveIcon"
+                    android:layout_gravity="center"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="0.30"
+                    app:srcCompat="@drawable/ic_save_white_24px" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.75"
+                    android:text="Let it Be (The Beatles) Strum Guitar Cover with ChordsLyrics.wav"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_gravity="center"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="0.25" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/chordImageLeft"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/probabilityTextViewLeft"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center"
+                            android:text="00.0%"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/chordImage"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+
+                        <TextView
+                            android:id="@+id/probabilityTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="00.0%"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/chordImageRight"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/probabilityTextViewRigth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="00.0%"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.github.derlio.waveform.SimpleWaveformView
+        android:id="@+id/waveform"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        app:indicatorColor="@color/waveform_unselected"
+        app:indicatorWidth="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timerTextView"
+        app:waveformColor="#F83121" />
+
+    <SeekBar
+        android:id="@+id/positionBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:thumbTint="@color/waveform_unselected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waveform" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="0:00"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_margin="8dp"
+        android:text="Start"
+        android:drawableLeft="@drawable/ic_play_arrow_24px"
+        android:background="@color/waveform_unselected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionBar" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

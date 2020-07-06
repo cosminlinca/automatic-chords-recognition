@@ -1,0 +1,22 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Licenta Latex.blg'
+[86] biber-MSWIN64:322> INFO - === 
+[107] Biber.pm:415> INFO - Reading 'Licenta Latex.bcf'
+[247] Biber.pm:943> INFO - Found 47 citekeys in bib section 0
+[267] Biber.pm:4256> INFO - Processing section 0
+[267] Utils.pm:75> INFO - Globbing data source 'biblio.bib'
+[278] Utils.pm:91> INFO - Globbed data source 'biblio.bib' to biblio.bib
+[297] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[311] bibtex.pm:1653> INFO - LaTeX decoding ...
+[368] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio.bib'
+[372] Utils.pm:304> WARN - Duplicate entry key: 'WEBSITE:android-activity' in file 'biblio.bib', skipping ...
+[373] Utils.pm:304> WARN - Duplicate entry key: 'WEBSITE:android-layouts' in file 'biblio.bib', skipping ...
+[400] Utils.pm:304> WARN - year field '2012-2013' in entry 'Bonvini-Recognition' is not an integer - this will probably not sort properly.
+[510] Utils.pm:304> WARN - year field '2012 11th International Conference on Machine Learning and Applications' in entry 'Rethinking-Automatic-Chord-Recognition-with-CNN' is not an integer - this will probably not sort properly.
+[591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[591] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[591] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[646] bbl.pm:652> INFO - Writing 'Licenta Latex.bbl' with encoding 'UTF-8'
+[665] bbl.pm:755> INFO - Output to Licenta Latex.bbl
+[674] Biber.pm:128> INFO - WARNINGS: 4

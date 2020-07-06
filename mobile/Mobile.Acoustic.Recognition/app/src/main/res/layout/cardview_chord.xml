@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardViewForChordId"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="8dp"
+    android:padding="4dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    cardview:cardCornerRadius="4dp">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/chordImageId"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="#FFFFFF"/>
+
+</androidx.cardview.widget.CardView>

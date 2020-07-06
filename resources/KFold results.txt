@@ -1,0 +1,59 @@
+KFOLD 1
+src.modelling.ChRecogCNN - INFO - Train loss: 0.19110877501895915
+src.modelling.ChRecogCNN - INFO - Train accuracy: 0.9522238373756409
+src.modelling.ChRecogCNN - INFO - Train precision: 0.9781912565231323
+src.modelling.ChRecogCNN - INFO - Train recall: 0.9144811034202576
+src.modelling.ChRecogCNN - INFO - Train f1-score: 0.9445012807846069
+src.modelling.ChRecogCNN - INFO - Test loss: 0.24926834414040158
+src.modelling.ChRecogCNN - INFO - Test accuracy: 0.9332436323165894
+src.modelling.ChRecogCNN - INFO - Test precision: 0.9711593389511108
+src.modelling.ChRecogCNN - INFO - Test recall: 0.8981473445892334
+src.modelling.ChRecogCNN - INFO - Test f1-score: 0.9325509071350098
+
+KFOLD2
+src.modelling.ChRecogCNN - INFO - Train loss: 0.12837386130221715
+src.modelling.ChRecogCNN - INFO - Train accuracy: 0.9691651463508606
+src.modelling.ChRecogCNN - INFO - Train precision: 0.9853254556655884
+src.modelling.ChRecogCNN - INFO - Train recall: 0.9455699324607849
+src.modelling.ChRecogCNN - INFO - Train f1-score: 0.9645408987998962
+src.modelling.ChRecogCNN - INFO - Test loss: 0.3060573818419227
+src.modelling.ChRecogCNN - INFO - Test accuracy: 0.9136539697647095
+src.modelling.ChRecogCNN - INFO - Test precision: 0.9552240967750549
+src.modelling.ChRecogCNN - INFO - Test recall: 0.8798799514770508
+src.modelling.ChRecogCNN - INFO - Test f1-score: 0.9154553413391113
+
+KFOLD3
+src.modelling.ChRecogCNN - INFO - Train loss: 0.1524603524164984
+src.modelling.ChRecogCNN - INFO - Train accuracy: 0.9609046578407288
+src.modelling.ChRecogCNN - INFO - Train precision: 0.9792055487632751
+src.modelling.ChRecogCNN - INFO - Train recall: 0.9335421323776245
+src.modelling.ChRecogCNN - INFO - Train f1-score: 0.9552634954452515
+src.modelling.ChRecogCNN - INFO - Test loss: 0.3834476728028002
+src.modelling.ChRecogCNN - INFO - Test accuracy: 0.8901126384735107
+src.modelling.ChRecogCNN - INFO - Test precision: 0.94048672914505
+src.modelling.ChRecogCNN - INFO - Test recall: 0.8475378751754761
+src.modelling.ChRecogCNN - INFO - Test f1-score: 0.8908920288085938
+
+KFOLD4
+src.modelling.ChRecogCNN - INFO - Train loss: 0.11166572222850712
+src.modelling.ChRecogCNN - INFO - Train accuracy: 0.9698797464370728
+src.modelling.ChRecogCNN - INFO - Train precision: 0.9837387204170227
+src.modelling.ChRecogCNN - INFO - Train recall: 0.9533176422119141
+src.modelling.ChRecogCNN - INFO - Train f1-score: 0.9679476618766785
+src.modelling.ChRecogCNN - INFO - Test loss: 0.4163875845308682
+src.modelling.ChRecogCNN - INFO - Test accuracy: 0.8870859146118164
+src.modelling.ChRecogCNN - INFO - Test precision: 0.9349835515022278
+src.modelling.ChRecogCNN - INFO - Test recall: 0.8588480949401855
+src.modelling.ChRecogCNN - INFO - Test f1-score: 0.8946733474731445
+
+KFOLD0
+src.modelling.ChRecogCNN - INFO - Train loss: 0.1732141078013331
+src.modelling.ChRecogCNN - INFO - Train accuracy: 0.9536320567131042
+src.modelling.ChRecogCNN - INFO - Train precision: 0.9751888513565063
+src.modelling.ChRecogCNN - INFO - Train recall: 0.9243653416633606
+src.modelling.ChRecogCNN - INFO - Train f1-score: 0.948643147945404
+src.modelling.ChRecogCNN - INFO - Test loss: 0.16944571671785377
+src.modelling.ChRecogCNN - INFO - Test accuracy: 0.9565327167510986
+src.modelling.ChRecogCNN - INFO - Test precision: 0.9700446128845215
+src.modelling.ChRecogCNN - INFO - Test recall: 0.928557276725769
+src.modelling.ChRecogCNN - INFO - Test f1-score: 0.9485501646995544

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/scrollView"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DDDCD7"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/waveform_unselected"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewPlaylist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="My playlist"
+                        android:textColor="#FFFFFF"
+                        android:textSize="32dp" />
+
+                    <TextView
+                        android:id="@+id/textViewSubTitleTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="Total songs" />
+
+                    <TextView
+                        android:id="@+id/textViewAudioTotalValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_playlist"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_search_24px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Search..."
+        android:textColorHint="#000000"
+        android:backgroundTint="@color/waveform_unselected"
+        android:textColor="#000000"
+        android:inputType="textPersonName"
+        android:shadowColor="#FFFFFF" />
+    <include
+        layout="@layout/listview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="16dp" />
+
+</LinearLayout>
+<!--</ScrollView>-->

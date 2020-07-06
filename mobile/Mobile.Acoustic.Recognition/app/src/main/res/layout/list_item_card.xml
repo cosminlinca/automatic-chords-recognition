@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:descendantFocusability="beforeDescendants"
+    android:id="@+id/list_item_card">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="4dp"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="8dp"
+            android:weightSum="1"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/imageViewMusicalNote"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.15"
+                android:layout_margin="4dp"
+                app:srcCompat="@drawable/ic_music_note_24px" />
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="64dp"
+                android:layout_weight="0.65"
+                android:maxWidth="200dp"
+                android:text="Test test test test stet te tes t et st e st et  teststet  ste  "
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/savedImageId"
+                android:layout_width="0dp"
+                android:layout_weight="0.10"
+                android:layout_height="32dp"
+                android:layout_gravity="end"
+                android:onClick="showPopup"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_check_24px" />
+
+            <ImageView
+                android:id="@+id/threeDotsMenuImageId"
+                android:layout_width="0dp"
+                android:layout_weight="0.10"
+                android:layout_height="32dp"
+                android:layout_gravity="end"
+                android:onClick="showPopup"
+                app:srcCompat="@drawable/ic_menu_24px" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/previewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:text="3:02"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+</FrameLayout>

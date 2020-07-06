@@ -1,0 +1,91 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introducere}{4}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Motivația}{5}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Analiza proiectului}{6}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Noțiuni introductive}{7}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Pitch și clase de pitch}{7}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Acorduri muzicale}{9}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Notația prin partitură}{10}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Tabulatura}{11}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Metode de procesare ale semnalului sonor}{12}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Semnalul sonor}{12}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Transformata Fourier pe termen scurt}{14}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Interpretare matematică}{14}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Aplicabilitate}{16}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Transformata Q constantă}{17}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Chromagrama}{18}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Metode de clasificare}{19}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Sisteme de învățare automată}{19}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Modele Markov cu stări ascunse}{22}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Rețele neuronale artificiale}{24}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Rețele neuronale profunde}{27}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Rețele neuronale convoluționale}{27}{subsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Rețele de convingeri profunde}{31}{subsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Rezultate experimentale}{32}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Descrierea soluție propuse}{32}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Setul de date}{33}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Augmentarea datelor}{34}{subsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Normalizarea datelor}{34}{subsection.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Extragerea trăsăturilor muzicale}{35}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Detectarea tranzițiilor muzicale}{37}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Construirea, antrenarea și evaluarea modelului neuronal convoluțional}{39}{section.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Rezultate}{43}{section.5.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.1}Validare încrucișată}{44}{subsection.5.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Aplicația sistemului}{46}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Mediu de lucru}{46}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Back-end}{46}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Front-end}{47}{subsection.6.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Pachete și librării externe}{48}{subsection.6.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Arhitectura sistemului de recunoaștere automată}{49}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Aplicația mobile}{54}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Arhitectura aplicației mobile}{54}{subsection.6.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Funcționalități}{56}{subsection.6.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Abordări existente pentru recunoașterea automată a partiturilor muzicale}{59}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Concluzii}{62}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Rezumat}{62}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Îmbunătățiri viitoare}{63}{section.8.2}%

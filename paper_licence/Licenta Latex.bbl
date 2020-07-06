@@ -1,0 +1,1048 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{WEBSITE:victorimpmooc}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{title}{Analog to digital converion process}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://victorimpmooc.wordpress.com
+      \endverb
+      \verb{url}
+      \verb https://victorimpmooc.wordpress.com
+      \endverb
+    \endentry
+    \entry{Harmonic-content-in-music-signals}{book}{}
+      \name{author}{2}{}{%
+        {{hash=449fce9e1c2043d6dbf129f5c39f948a}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Juan\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6fa9161e8a57981c636df2d5ed39878b}{%
+           family={Pickens},
+           familyi={P\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {In processing of ISMIR}%
+      }
+      \strng{namehash}{ba039db393380a133cd984cbcec1e72e}
+      \strng{fullhash}{ba039db393380a133cd984cbcec1e72e}
+      \strng{bibnamehash}{ba039db393380a133cd984cbcec1e72e}
+      \strng{authorbibnamehash}{ba039db393380a133cd984cbcec1e72e}
+      \strng{authornamehash}{ba039db393380a133cd984cbcec1e72e}
+      \strng{authorfullhash}{ba039db393380a133cd984cbcec1e72e}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A robust mid-level representation for harmonic content in music signals.}
+      \field{year}{2005}
+      \field{pages}{304\bibrangedash 311}
+      \range{pages}{8}
+    \endentry
+    \entry{Understanding-Batch-Normalization}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=f7a6e0729f26aa20a3b213e679ce605b}{%
+           family={Bjorck},
+           familyi={B\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bd5d717cb5fada5c376f42750d6ab98a}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Carla\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=0ff75e71f593b1e7ef8dc99e4a1ff418}{%
+           family={Selman},
+           familyi={S\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod}}}%
+        {{hash=68a0238356fbd88b34be8886f25938a7}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={Kilian\bibnamedelima Q},
+           giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=9b411b6c9cefdde16ffea77ecf612142}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1444141e07dd9549dbb4b8530fe4ec15}{%
+           family={Wallach},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6c15b92d4ebdbfae091f6548dc7543ae}{%
+           family={Larochelle},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4f2317ca7fb46f798c6c220e39e332a0}{%
+           family={Grauman},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9bc86e7523b9aaf7183c5f7e7634048f}{%
+           family={Cesa-Bianchi},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=36b98b7ab533936cf1b5716148de704f}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Association, Inc.}%
+      }
+      \strng{namehash}{5dfcdb721f7c420838483f9f2f3b8f93}
+      \strng{fullhash}{f622b4808d7cc538aa7cb00e7748fb50}
+      \strng{bibnamehash}{f622b4808d7cc538aa7cb00e7748fb50}
+      \strng{authorbibnamehash}{f622b4808d7cc538aa7cb00e7748fb50}
+      \strng{authornamehash}{5dfcdb721f7c420838483f9f2f3b8f93}
+      \strng{authorfullhash}{f622b4808d7cc538aa7cb00e7748fb50}
+      \strng{editorbibnamehash}{f08403ac24c2e0a0ae72822c0c0afda6}
+      \strng{editornamehash}{233f4c9ba2f85af3db1eed171136508c}
+      \strng{editorfullhash}{f08403ac24c2e0a0ae72822c0c0afda6}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 31}
+      \field{title}{Understanding Batch Normalization}
+      \field{year}{2018}
+      \field{pages}{7694\bibrangedash 7705}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://papers.nips.cc/paper/7996-understanding-batch-normalization
+      \endverb
+      \verb{url}
+      \verb https://papers.nips.cc/paper/7996-understanding-batch-normalization
+      \endverb
+    \endentry
+    \entry{Evaluating-the-online-capabilities-of-Onset-detection-methods}{article}{}
+      \name{author}{3}{}{%
+        {{hash=760812e7d38fdf25521429a8ab2e8a5c}{%
+           family={Bock},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=468cdba2b1a42542d8fb37f2c83696aa}{%
+           family={Krebs},
+           familyi={K\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=28b51640509c48a3b9b4bbbb0b26c578}{%
+           family={Schedl},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{52f39c07f05a0ea244101f2628a2512b}
+      \strng{fullhash}{52f39c07f05a0ea244101f2628a2512b}
+      \strng{bibnamehash}{52f39c07f05a0ea244101f2628a2512b}
+      \strng{authorbibnamehash}{52f39c07f05a0ea244101f2628a2512b}
+      \strng{authornamehash}{52f39c07f05a0ea244101f2628a2512b}
+      \strng{authorfullhash}{52f39c07f05a0ea244101f2628a2512b}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Department of Computational Perception}
+      \field{title}{Evaluating the online capabilities of Onset detection methods}
+      \field{year}{2012}
+    \endentry
+    \entry{Bonvini-Recognition}{article}{}
+      \name{author}{1}{}{%
+        {{hash=69f402c6a4f0cfaf1ddfcce6ebcb0af6}{%
+           family={Bonvini},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{69f402c6a4f0cfaf1ddfcce6ebcb0af6}
+      \strng{fullhash}{69f402c6a4f0cfaf1ddfcce6ebcb0af6}
+      \strng{bibnamehash}{69f402c6a4f0cfaf1ddfcce6ebcb0af6}
+      \strng{authorbibnamehash}{69f402c6a4f0cfaf1ddfcce6ebcb0af6}
+      \strng{authornamehash}{69f402c6a4f0cfaf1ddfcce6ebcb0af6}
+      \strng{authorfullhash}{69f402c6a4f0cfaf1ddfcce6ebcb0af6}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal: POLITECNICO DI MILANO Facoltà di Ingegneria dell'Informazione Corso di Laurea Magistrale in Ingegneria e Design del suono Dipartimento di Elettronica e Informazione}
+      \field{title}{Automatic chord recognition using Deep Learning techniques}
+      \field{year}{2012-2013}
+    \endentry
+    \entry{Fourier-Transform}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1391391d22c701b41d0c2f3041e9269e}{%
+           family={Bracewell},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill, ISBN-13: 9781124130941}%
+      }
+      \strng{namehash}{1391391d22c701b41d0c2f3041e9269e}
+      \strng{fullhash}{1391391d22c701b41d0c2f3041e9269e}
+      \strng{bibnamehash}{1391391d22c701b41d0c2f3041e9269e}
+      \strng{authorbibnamehash}{1391391d22c701b41d0c2f3041e9269e}
+      \strng{authornamehash}{1391391d22c701b41d0c2f3041e9269e}
+      \strng{authorfullhash}{1391391d22c701b41d0c2f3041e9269e}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Fourier Transform and Its Applications (ed. 3rd)}
+      \field{year}{2000}
+    \endentry
+    \entry{Constant-Q-Spectral}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5b6b8ab81689a5a760d8f7dfee442959}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Judith\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Journal of the Acoustical Society of America}%
+      }
+      \strng{namehash}{5b6b8ab81689a5a760d8f7dfee442959}
+      \strng{fullhash}{5b6b8ab81689a5a760d8f7dfee442959}
+      \strng{bibnamehash}{5b6b8ab81689a5a760d8f7dfee442959}
+      \strng{authorbibnamehash}{5b6b8ab81689a5a760d8f7dfee442959}
+      \strng{authornamehash}{5b6b8ab81689a5a760d8f7dfee442959}
+      \strng{authorfullhash}{5b6b8ab81689a5a760d8f7dfee442959}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Calculation of a constant q spectral transform}
+      \field{year}{1991}
+    \endentry
+    \entry{WEBSITE:c-sharp-note}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{title}{C-sharp urldate}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.basicmusictheory.com/c-sharp-urldate
+      \endverb
+      \verb{url}
+      \verb https://www.basicmusictheory.com/c-sharp-urldate
+      \endverb
+    \endentry
+    \entry{WEBSITE:tabulaturi}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{title}{Ce este o tabulatură?}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tabulaturi.ro/lectii/ce-este-o-tabulatura
+      \endverb
+      \verb{url}
+      \verb https://www.tabulaturi.ro/lectii/ce-este-o-tabulatura
+      \endverb
+    \endentry
+    \entry{WEBSITE:cnn-for-visual-recognition}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{title}{CS231n: Convolutional Neural Networks for Visual Recognition, by Stanford University}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cs231n.github.io/convolutional-networks/overview
+      \endverb
+      \verb{url}
+      \verb https://cs231n.github.io/convolutional-networks/overview
+      \endverb
+    \endentry
+    \entry{Tehnici-de-inteligență-computațională-Aplicații-în-electronică-și-biomedicină}{book}{}
+      \name{author}{1}{}{%
+        {{hash=25480d84b43da4defb43340180acc8be}{%
+           family={Dobrea},
+           familyi={D\bibinitperiod},
+           given={Dan-Marius},
+           giveni={D\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editura Performantica (editură acreditată CNCSIS), Iaşi, România, ISBN 978-606-685-546-4}%
+      }
+      \strng{namehash}{25480d84b43da4defb43340180acc8be}
+      \strng{fullhash}{25480d84b43da4defb43340180acc8be}
+      \strng{bibnamehash}{25480d84b43da4defb43340180acc8be}
+      \strng{authorbibnamehash}{25480d84b43da4defb43340180acc8be}
+      \strng{authornamehash}{25480d84b43da4defb43340180acc8be}
+      \strng{authorfullhash}{25480d84b43da4defb43340180acc8be}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tehnici de inteligență computațională. Aplicații în electronică și biomedicină}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://www.etc.tuiasi.ro/cin/Courses/Epiom/Course/Curs_Rtizrt123XuAsdr/Capitol%20RNA.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.etc.tuiasi.ro/cin/Courses/Epiom/Course/Curs_Rtizrt123XuAsdr/Capitol%20RNA.pdf
+      \endverb
+    \endentry
+    \entry{WEBSITE:guitar-chords-chart}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{title}{Easy Tips for Reading Guitar Chord Charts}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://takelessons.com/blog/guitar-chord-charts-z01/
+      \endverb
+      \verb{url}
+      \verb https://takelessons.com/blog/guitar-chord-charts-z01/
+      \endverb
+    \endentry
+    \entry{WEBSITE:fourier-visualization}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeltitlesource}{title}
+      \field{title}{Fourier Transform Visualization, based on video presentation. Experiment using project}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://prajwalsouza.github.io/Experiments/Fourier-Transform-Visualization.html
+      \endverb
+      \verb{url}
+      \verb https://prajwalsouza.github.io/Experiments/Fourier-Transform-Visualization.html
+      \endverb
+    \endentry
+    \entry{Ed-muz-sinteze-corelari-interdisc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=39719fabaa2e14065b6f95a35cfe0e62}{%
+           family={Gabriela},
+           familyi={G\bibinitperiod},
+           given={Munteanu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editura Artrom}%
+      }
+      \strng{namehash}{39719fabaa2e14065b6f95a35cfe0e62}
+      \strng{fullhash}{39719fabaa2e14065b6f95a35cfe0e62}
+      \strng{bibnamehash}{39719fabaa2e14065b6f95a35cfe0e62}
+      \strng{authorbibnamehash}{39719fabaa2e14065b6f95a35cfe0e62}
+      \strng{authornamehash}{39719fabaa2e14065b6f95a35cfe0e62}
+      \strng{authorfullhash}{39719fabaa2e14065b6f95a35cfe0e62}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Educație muzicală, Sinteze și corelări interdisciplinare}
+      \field{year}{2001}
+    \endentry
+    \entry{Hands-On-Machine-Learning}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e54e6c9ce5d233c7046a00f7b3faa6c0}{%
+           family={Géron},
+           familyi={G\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O’Reilly Media, ISBN-13: 9781492032649}%
+      }
+      \strng{namehash}{e54e6c9ce5d233c7046a00f7b3faa6c0}
+      \strng{fullhash}{e54e6c9ce5d233c7046a00f7b3faa6c0}
+      \strng{bibnamehash}{e54e6c9ce5d233c7046a00f7b3faa6c0}
+      \strng{authorbibnamehash}{e54e6c9ce5d233c7046a00f7b3faa6c0}
+      \strng{authornamehash}{e54e6c9ce5d233c7046a00f7b3faa6c0}
+      \strng{authorfullhash}{e54e6c9ce5d233c7046a00f7b3faa6c0}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow}
+      \field{year}{2019}
+    \endentry
+    \entry{WEBSITE:google-colab}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Colab}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tutorialspoint.com/google_colab/what_is_google_colab.htm
+      \endverb
+      \verb{url}
+      \verb https://www.tutorialspoint.com/google_colab/what_is_google_colab.htm
+      \endverb
+    \endentry
+    \entry{WEBSITE:android-mvvm}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{title}{Guide to app architecture}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/jetpack/docs/guide
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/jetpack/docs/guide
+      \endverb
+    \endentry
+    \entry{WEBSITE:pycharm}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{title}{Guide to PyCharm for Windows and MacOS}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kite.com/blog/python/pycharm/
+      \endverb
+      \verb{url}
+      \verb https://kite.com/blog/python/pycharm/
+      \endverb
+    \endentry
+    \entry{Signals-Sound-and-Sensation}{book}{}
+      \name{author}{2}{}{%
+        {{hash=7ed2293aa075bbf75a2a4d7752e911b4}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod}}}%
+        {{hash=5bc7058707ff6af57428d001c1366ad2}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer. pp. 145, 284, 287. ISBN 978-1-56396-283-7}%
+      }
+      \strng{namehash}{abf6aa07c8ad2983026a1c34e395bb46}
+      \strng{fullhash}{abf6aa07c8ad2983026a1c34e395bb46}
+      \strng{bibnamehash}{abf6aa07c8ad2983026a1c34e395bb46}
+      \strng{authorbibnamehash}{abf6aa07c8ad2983026a1c34e395bb46}
+      \strng{authornamehash}{abf6aa07c8ad2983026a1c34e395bb46}
+      \strng{authorfullhash}{abf6aa07c8ad2983026a1c34e395bb46}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Signals, Sound, and Sensation}
+    \endentry
+    \entry{Rethinking-Automatic-Chord-Recognition-with-CNN}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2d2340a243b093d9d7e1c84a6432582b}{%
+           family={Humphrey},
+           familyi={H\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=449fce9e1c2043d6dbf129f5c39f948a}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Juan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9fc01323ff4c2e7e0e550f5c21758a7}
+      \strng{fullhash}{a9fc01323ff4c2e7e0e550f5c21758a7}
+      \strng{bibnamehash}{a9fc01323ff4c2e7e0e550f5c21758a7}
+      \strng{authorbibnamehash}{a9fc01323ff4c2e7e0e550f5c21758a7}
+      \strng{authornamehash}{a9fc01323ff4c2e7e0e550f5c21758a7}
+      \strng{authorfullhash}{a9fc01323ff4c2e7e0e550f5c21758a7}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Music and Audio Research Lab (MARL) New York University}
+      \field{title}{Rethinking Automatic Chord Recognition with Convolutional Neural Networks}
+      \field{year}{2012 11th International Conference on Machine Learning and Applications}
+    \endentry
+    \entry{Speech-and-Language-Processing}{book}{}
+      \name{author}{2}{}{%
+        {{hash=bd33d7a70284b5ead9c7985cb5c9929c}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ed8bee488b2703da341cded66bf83cb}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Draft of October 16, ISBN-13: 9789332518414}%
+      }
+      \strng{namehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{fullhash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{bibnamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorbibnamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authornamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorfullhash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speech and Language Processing, An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition}
+      \field{year}{2019}
+    \endentry
+    \entry{WEBSITE:k-fold-cross-validation}{misc}{}
+      \field{sortinit}{k}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeltitlesource}{title}
+      \field{title}{k-Fold Cross-Validation}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/k-fold-cross-validation/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/k-fold-cross-validation/
+      \endverb
+    \endentry
+    \entry{WEBSITE:kotlin-overview}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeltitlesource}{title}
+      \field{title}{Kotlin overview}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/kotlin/overview
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/kotlin/overview
+      \endverb
+    \endentry
+    \entry{Automatic-Chord-Recognition-from-Audio-Using-an-HMM-with-Supervised-Learning}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f47d6f8a9660c5c5bcdb2f43935a120}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kyogu},
+           giveni={K\bibinitperiod}}}%
+        {{hash=af3eb849c7bb824718da580e0514e62b}{%
+           family={Slaney},
+           familyi={S\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{769d03fe205ec22739c7a07ca2e59889}
+      \strng{fullhash}{769d03fe205ec22739c7a07ca2e59889}
+      \strng{bibnamehash}{769d03fe205ec22739c7a07ca2e59889}
+      \strng{authorbibnamehash}{769d03fe205ec22739c7a07ca2e59889}
+      \strng{authornamehash}{769d03fe205ec22739c7a07ca2e59889}
+      \strng{authorfullhash}{769d03fe205ec22739c7a07ca2e59889}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISMIR 2006, 7th International Conference on Music Information Retrieval}
+      \field{title}{Automatic Chord Recognition from Audio Using an HMM with Supervised Learning}
+      \field{year}{2006}
+    \endentry
+    \entry{WEBSITE:librosa}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{title}{LibROSA}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://librosa.github.io/librosa/index.html
+      \endverb
+      \verb{url}
+      \verb https://librosa.github.io/librosa/index.html
+      \endverb
+    \endentry
+    \entry{WEBSITE:ml-crash-course}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Crash Course}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/machine-learning/crash-course
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/machine-learning/crash-course
+      \endverb
+    \endentry
+    \entry{WEBSITE:medium-raghav}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{title}{MathWorks-Convolutional Neural Network}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.mathworks.com/solutions/deep-learning/convolutional-neural-network.html
+      \endverb
+      \verb{url}
+      \verb http://www.mathworks.com/solutions/deep-learning/convolutional-neural-network.html
+      \endverb
+    \endentry
+    \entry{WEBSITE:meet-android-studio}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{title}{Meet Android Studio}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/studio/intro
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/studio/intro
+      \endverb
+    \endentry
+    \entry{Generating-Guitar-Tablatures-with-Neural-Networks}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7a34c2a2160d32a8b5c3be303594b112}{%
+           family={Mistler},
+           familyi={M\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a34c2a2160d32a8b5c3be303594b112}
+      \strng{fullhash}{7a34c2a2160d32a8b5c3be303594b112}
+      \strng{bibnamehash}{7a34c2a2160d32a8b5c3be303594b112}
+      \strng{authorbibnamehash}{7a34c2a2160d32a8b5c3be303594b112}
+      \strng{authornamehash}{7a34c2a2160d32a8b5c3be303594b112}
+      \strng{authorfullhash}{7a34c2a2160d32a8b5c3be303594b112}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{School of Informatics, University of Edinburgh}
+      \field{title}{Generating Guitar Tablatures with Neural Networks}
+      \field{year}{2017}
+    \endentry
+    \entry{Towards-CNN-based-Acoustic-Modeling-of-Seventh-Chords-for-ACR}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c61bb1f4dc27bfe07cab281de9b00c1a}{%
+           family={Nadar},
+           familyi={N\bibinitperiod},
+           given={Christon-Ragavan},
+           giveni={C\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=35c2666c71e9aca6fae897ee7e3c2bce}{%
+           family={Abeßer},
+           familyi={A\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5188a7a0a2a19e219c2a6c66e4fb6d14}{%
+           family={Grollmisch},
+           familyi={G\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3f1771581637606a8373c88047ba477}
+      \strng{fullhash}{a3f1771581637606a8373c88047ba477}
+      \strng{bibnamehash}{a3f1771581637606a8373c88047ba477}
+      \strng{authorbibnamehash}{a3f1771581637606a8373c88047ba477}
+      \strng{authornamehash}{a3f1771581637606a8373c88047ba477}
+      \strng{authorfullhash}{a3f1771581637606a8373c88047ba477}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sound and Music Computing Conference (SMC), Malaga}
+      \field{title}{Towards CNN-based Acoustic Modeling of Seventh Chords for Automatic Chord Recognition}
+      \field{year}{2019}
+    \endentry
+    \entry{WEBSITE:chitara-notiuni-esentiale}{misc}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labeltitlesource}{title}
+      \field{title}{Notiuni esentiale despre acorduri la o chitara acustica}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://promusicprod.ro/notiuni-esentiale-despre-acorduri-la-o-chitara-clasica/
+      \endverb
+      \verb{url}
+      \verb https://promusicprod.ro/notiuni-esentiale-despre-acorduri-la-o-chitara-clasica/
+      \endverb
+    \endentry
+    \entry{WEBSITE:numpy}{misc}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labeltitlesource}{title}
+      \field{title}{NumPy}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://numpy.org/
+      \endverb
+      \verb{url}
+      \verb https://numpy.org/
+      \endverb
+    \endentry
+    \entry{WEBSITE:onset-detection}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeltitlesource}{title}
+      \field{title}{Onset Detection}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://musicinformationretrieval.com/onset_detection.html
+      \endverb
+      \verb{url}
+      \verb https://musicinformationretrieval.com/onset_detection.html
+      \endverb
+    \endentry
+    \entry{WEBSITE:pandas}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{title}{Pandas 1.0.3}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pypi.org/project/pandas/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/pandas/
+      \endverb
+    \endentry
+    \entry{Guitar-Set}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f4148d79e050a41cdd390d6c67337552}{%
+           family={Pauwels},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=12da98df3cdb8328878c18d63ee3fd13}{%
+           family={Q.Xi},
+           familyi={Q\bibinitperiod}}}%
+        {{hash=0e80b111b5c3ad5a3bede04c2f0117f1}{%
+           family={R.Bittner},
+           familyi={R\bibinitperiod}}}%
+        {{hash=75ebdc3d678531e4fc9ad8c276fb9137}{%
+           family={J.P.Bello},
+           familyi={J\bibinitperiod}}}%
+        {{hash=3a4ed7cd9b8077c08d6f64f0dd944d20}{%
+           family={X.Ye},
+           familyi={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{6440d0aab8b78a861ccc4affc00311fd}
+      \strng{fullhash}{b53ef3f66dc1fd06e7db1f465c2c0a30}
+      \strng{bibnamehash}{b53ef3f66dc1fd06e7db1f465c2c0a30}
+      \strng{authorbibnamehash}{b53ef3f66dc1fd06e7db1f465c2c0a30}
+      \strng{authornamehash}{6440d0aab8b78a861ccc4affc00311fd}
+      \strng{authorfullhash}{b53ef3f66dc1fd06e7db1f465c2c0a30}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{19th International Society for Music Information Retrieval Conference, Paris, France}
+      \field{title}{Guitarset, A Dataset for Guitar Transcription}
+      \field{year}{2018}
+    \endentry
+    \entry{Audio-Sig-Processing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3989f7ee9b4aa92774859d3901c499c5}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Preeti},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3989f7ee9b4aa92774859d3901c499c5}
+      \strng{fullhash}{3989f7ee9b4aa92774859d3901c499c5}
+      \strng{bibnamehash}{3989f7ee9b4aa92774859d3901c499c5}
+      \strng{authorbibnamehash}{3989f7ee9b4aa92774859d3901c499c5}
+      \strng{authornamehash}{3989f7ee9b4aa92774859d3901c499c5}
+      \strng{authorfullhash}{3989f7ee9b4aa92774859d3901c499c5}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bhanu Prasad and S. R. Mahadeva Prasanna, Springer-Verlag}
+      \field{title}{Audio Signal Processing, Chapter in Speech, Audio, Image and Biomedical Signal Processing using Neural Networks}
+      \field{year}{2007}
+    \endentry
+    \entry{WEBSITE:hmm-model-figure}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{title}{ResearchGate - Example of the probabilistic parameter of a hidden Markov model}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/
+      \endverb
+    \endentry
+    \entry{WEBSITE:rovislab}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Robotics, Vision and Control (ROVIS) Laboratory}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.rovislab.com/courses/ml/
+      \endverb
+      \verb{url}
+      \verb http://www.rovislab.com/courses/ml/
+      \endverb
+    \endentry
+    \entry{WEBSITE:android-room}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Room}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/jetpack/androidx/releases/room
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/jetpack/androidx/releases/room
+      \endverb
+    \endentry
+    \entry{Chord-Segmentation-and-Recognition-using-EM-Trained-HMM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d6845c08735e80dec8b2477214032b29}{%
+           family={Sheh},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8c2dba7002458c6a90760f98d2e441f1}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={Daniel\bibnamedelima P.W.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9df6b1ddda3ae4e73009f2c703fc1afc}
+      \strng{fullhash}{9df6b1ddda3ae4e73009f2c703fc1afc}
+      \strng{bibnamehash}{9df6b1ddda3ae4e73009f2c703fc1afc}
+      \strng{authorbibnamehash}{9df6b1ddda3ae4e73009f2c703fc1afc}
+      \strng{authornamehash}{9df6b1ddda3ae4e73009f2c703fc1afc}
+      \strng{authorfullhash}{9df6b1ddda3ae4e73009f2c703fc1afc}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Symposium on Music Information Retrieval}
+      \field{title}{Chord Segmentation and Recognition using EM-Trained Hidden Markov Models}
+      \field{year}{2003}
+    \endentry
+    \entry{WEBSITE:the-music-studio}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{title}{The Music Studio}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.themusicstudio.ca/blog/2017/11/909/
+      \endverb
+      \verb{url}
+      \verb https://www.themusicstudio.ca/blog/2017/11/909/
+      \endverb
+    \endentry
+    \entry{Ingineria-sistemelor-de-programare}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=6614d1d86aeb3e0cc5f5bae9f595e4d8}{%
+           family={Ududec},
+           familyi={U\bibinitperiod},
+           given={Cornelia\bibnamedelima Novac},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editura Alma Mater Bacău 2011}%
+      }
+      \strng{namehash}{6614d1d86aeb3e0cc5f5bae9f595e4d8}
+      \strng{fullhash}{6614d1d86aeb3e0cc5f5bae9f595e4d8}
+      \strng{bibnamehash}{6614d1d86aeb3e0cc5f5bae9f595e4d8}
+      \strng{authorbibnamehash}{6614d1d86aeb3e0cc5f5bae9f595e4d8}
+      \strng{authornamehash}{6614d1d86aeb3e0cc5f5bae9f595e4d8}
+      \strng{authorfullhash}{6614d1d86aeb3e0cc5f5bae9f595e4d8}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ingineria sistemelor de programare}
+      \field{title}{Ingineria programării}
+    \endentry
+    \entry{WEBSITE:ultimate-guitar}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{title}{Ultimate Guitar}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ultimate-guitar.com/
+      \endverb
+      \verb{url}
+      \verb https://www.ultimate-guitar.com/
+      \endverb
+    \endentry
+    \entry{WEBSITE:android-activity}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{title}{Understand the Activity Lifecycle}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/guide/components/activities/activity-lifecycle
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/guide/components/activities/activity-lifecycle
+      \endverb
+    \endentry
+    \entry{WEBSITE:python}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Python? Executive Summary}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.python.org/doc/essays/blurb/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/doc/essays/blurb/
+      \endverb
+    \endentry
+    \entry{WEBSITE:conv2d-working-cnn}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{title}{Working with CNN 2D Convolutions in Keras}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://missinglink.ai/guides/keras/keras-conv2d-working-cnn-2d-convolutions-keras/
+      \endverb
+      \verb{url}
+      \verb https://missinglink.ai/guides/keras/keras-conv2d-working-cnn-2d-convolutions-keras/
+      \endverb
+    \endentry
+    \entry{Chord-detection-using-Deep-Learning}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bd0e440f452199bdbd742b36abe1164b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xinquan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=befa5f4301d8ec323279add8a075408a}{%
+           family={Lerch},
+           familyi={L\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f018db0bcbc12a4908b9fb74d2d1668d}
+      \strng{fullhash}{f018db0bcbc12a4908b9fb74d2d1668d}
+      \strng{bibnamehash}{f018db0bcbc12a4908b9fb74d2d1668d}
+      \strng{authorbibnamehash}{f018db0bcbc12a4908b9fb74d2d1668d}
+      \strng{authornamehash}{f018db0bcbc12a4908b9fb74d2d1668d}
+      \strng{authorfullhash}{f018db0bcbc12a4908b9fb74d2d1668d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISMIR 2015, International Conference on Music Information Retrieval}
+      \field{title}{Chord detection using Deep Learning}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

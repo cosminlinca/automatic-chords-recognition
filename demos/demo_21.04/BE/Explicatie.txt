@@ -1,0 +1,26 @@
+- Structura proiectului de BE nu urmeaza un sablon clasic,
+avand in vedere notiunile abordate, si etapele 
+necesare de parcurs in modelarea si antrenarea unei 
+retele neuronale. 
+Astfel, structura este adaptata
+pe aceste etape, proiectul fiind mai degraba unul stintiific
+("Python-Based Data Science Project").
+
+- Datasetul aflat local a fost trecut prin mai multe etape
+(incepand de la "intermediate" - modul care se ocupa de procesarea 
+datelor si obtinerea unor informatii intermediare (sau gruparea lor), 
+"processing" - unde am realizat augmentarea datelor, "modelling" - 
+unde am aplicat tranformata Q Constanta asupra fiecarei inregistrari
+pentru am obtinut "Chromagrama" si unde am modelat mai multe arhitecturi 
+de CNN, ajungang treptat la o varianta cu rezultate bune, si "model_evaluation" - 
+modul care utilizeaza antrenata si furnizeaza diferite predictii, in functie
+de input-ul dat.
+- Astfel, intreaga logica tine de modulul de science.
+
+- Pentru a generaliza si a pregati mai bine proiectul, am creat inca un 
+modul, de development, care contine o structura mai clasica, in cazul 
+in care aplicatia se dezvolta pentru useri, si este nevoie de acces la o
+baza de date. 
+Momentan acest modul contine doar controllerul REST AudioController,
+care primeste fisiere audio, si le redirecioneaza inspre procesare 
+catre model_evaluation, in modulul de science.

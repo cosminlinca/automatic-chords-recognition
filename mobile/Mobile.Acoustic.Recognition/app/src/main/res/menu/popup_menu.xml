@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/renameItem"
+        android:title="Rename"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_edit_24px"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/deleteItem"
+        android:icon="@drawable/ic_delete_forever_black_24px"
+        android:orderInCategory="101"
+        android:title="Delete"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

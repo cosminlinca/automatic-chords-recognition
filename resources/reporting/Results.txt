@@ -1,0 +1,84 @@
+Rezultate experimentale:
+
+1. X_CNN2
+  - Dataset: ~56000 - npy - beta_V3
+  - Chroma24, hop512
+  - Epoci: 10
+  - Acuratete: 0.877
+
+2. CNN2
+  - Dataset: ~56000 - npy - beta_V3
+  - Chroma24, hop512
+  - Epoci: 25
+  - Acuratete: 0.8889309167861938
+
+3. X_ChRecogCNN_V1
+  - Dataset: ~56000 - npy - beta_V3
+  - Chroma24, hop512
+  - Epoci: 10
+  - batch_size: 128
+  - Rezultate:
+  		Train loss: 1.7118289293191815
+		Train accuracy: 0.5496200919151306		
+		Train precision: 0.6620991826057434
+		Train recall: 0.4835324287414551
+		Train f1-score: 0.5571585893630981
+		Test loss: 2.3014316428373225
+		Test accuracy: 0.4536451995372772
+		Test precision: 0.5780890583992004
+		Test recall: 0.39466962218284607
+		Test f1-score: 0.4672434628009796
+
+4. X_ChRecogCNN_V2
+  - Dataset: ~13500 - npy - beta
+  - Chroma24, hop512
+  - Epoci: 10
+  - batch_size: 64
+  - Rezultate: 
+		Train loss: 0.0032499395826365166
+		Train accuracy: 0.9988806247711182
+		Train precision: 0.9989558458328247
+		Train recall: 0.9988812804222107
+		Train f1-score: 0.9989179968833923
+		Test loss: 0.03766058182957193
+		Test accuracy: 0.9904477596282959
+		Test precision: 0.9902055859565735
+		Test recall: 0.9902055859565735
+		Test f1-score: 0.9902055859565735
+
+5. ChRecogCNN_V2 - in use
+  - Dataset: ~56000 - npy - beta_V3
+  - Chroma24, hop512
+  - Epoci: 25
+  - batch_size: 64
+  - Rezultate: 
+		Train loss: 0.07867297860684848
+		Train accuracy: 0.982008695602417
+		Train precision: 0.990569531917572
+		Train recall: 0.970093846321106
+		Train f1-score: 0.9799584746360779
+
+		Test loss: 0.5396939868179629
+		Test accuracy: 0.8533378839492798
+		Test precision: 0.9028927087783813
+		Test recall: 0.8160762786865234
+		Test f1-score: 0.8566158413887024
+
+6. ChRecogCNN with EarlyStopping(monitor='val_loss', verbose=1, patience=2)
+   - Dataset: ~56000 - npy - beta_V3
+   - Chroma24, hop512
+   - Epoci: 25
+   - batch_size: 64
+   - 85% training
+   - Rezultate: 
+	        src.modelling.ChRecogCNN - INFO - Train loss: 0.10683735566853965
+		src.modelling.ChRecogCNN - INFO - Train accuracy: 0.9744295477867126
+		src.modelling.ChRecogCNN - INFO - Train precision: 0.9855706691741943
+		src.modelling.ChRecogCNN - INFO - Train recall: 0.9573626518249512
+		src.modelling.ChRecogCNN - INFO - Train f1-score: 0.970902144908905
+		src.modelling.ChRecogCNN - INFO - Test loss: 0.5161076114209182
+		src.modelling.ChRecogCNN - INFO - Test accuracy: 0.8482813835144043
+		src.modelling.ChRecogCNN - INFO - Test precision: 0.9061872363090515
+		src.modelling.ChRecogCNN - INFO - Test recall: 0.8084343075752258
+		src.modelling.ChRecogCNN - INFO - Test f1-score: 0.853709876537323
+		

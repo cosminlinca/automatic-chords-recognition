@@ -1,0 +1,33 @@
+Modul de functionare al aplicatiei este urmatorul:
+
+- Din lista de piese/inregistrari (piese locale, aflate intr-un 
+folder al aplicatiei) se poate alege orice partitura 
+muzicala.
+- In momentul alegerii, acel fisier .wav se trimite aplicatiei
+de BE care ruleaza local (POST localhost:5000/ComputeChordsPrediction)
+care incepe sa proceseze fisierul audio;
+   - Procesarea: daca piesa dureaza mai mult de
+	doua secunde, se aplica un algoritm de determinare a tranzitiilor 
+	(onset detection); in urma aplicarii algoritmului, se determina 
+	k cadre/frameuri, cu durata intre 0.75 si 2 secunde. Pentru 
+	fiecare cadru se ofera o predictie, utilizand reteaua convolutionala
+	antrenata. Predictia este formata din top3 acorduri (impreuna cu 
+	valorea probabilitatii) care reprezinta acea bucata audio. 
+
+- Dupa ce s-a oferit o predictie pentru toate cadrele, 
+rezultatele sunt grupate intr-un raspuns json ("onset_json_format.txt"), 
+care se returneaza.
+- Cu datele ajunse in FE, se prelucreaza json-ul, si se utilizeaza un 
+thread separat care ruleaza odata la 10ms, si compara milisecunda (x)
+la care se afla piesa in acel moment cu datele din fisierul json,
+pentru a determina ce cadru corespunde acelei milisecunde x, 
+afisand in mod corect acordul si probabilitatea.
+
+Observatie:
+- Sistemul recunoaste 24 de acorduri, iar orice alt acord nerecunoscut
+se noteaza cu N. Astfel, pentru cele 24 de acorduri, m-am folosit de 
+o librarie Java pentru a le desena, asa cum se realizeaza fiecare 
+acord in parte la chitara.
+- Videoclipul demo cu recunoasterea completa este o inregistrarea 
+video/audio a unui chitarist de pe yt, unde sunt aratate
+acordurile reale. Link: https://www.youtube.com/watch?v=Gs4TOT6oLpQ
