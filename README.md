@@ -39,11 +39,11 @@ display, in real time, **the results of the automatic recognition of acoustic mu
 any desired musical sheet.
 
 ## Technologies
-- Kotlin
-- Python
-- TensorFlow
-- Keras
-- Librosa 
+- Kotlin 1.3.7
+- Python 3.6.2
+- TensorFlow 1.14.0
+- Keras 2.3.1
+- Librosa 0.7.2
 
 ## Visuals
 In the image below, it can be seen how the mobile platform is communicating with the recognition system.
