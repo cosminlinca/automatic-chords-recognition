@@ -54,7 +54,7 @@ prompt-toolkit==3.0.3
 protobuf==3.9.0
 PyAudio==0.2.11
 pycparser==2.19
-Pygments==2.5.2
+Pygments==2.7.4
 pylint==2.4.4
 pyparsing==2.4.6
 pyrsistent==0.15.7
