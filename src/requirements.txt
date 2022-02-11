@@ -51,7 +51,7 @@ pandas==1.0.1
 parso==0.6.2
 pickleshare==0.7.5
 prompt-toolkit==3.0.3
-protobuf==3.9.0
+protobuf==3.15.0
 PyAudio==0.2.11
 pycparser==2.19
 Pygments==2.5.2
